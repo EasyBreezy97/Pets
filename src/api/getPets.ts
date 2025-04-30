@@ -1,10 +1,8 @@
 import axios from "axios";
 
 export interface Pet {
-  id: number;
+  id: string;
   name: string;
-  breed: string;
-  age: number;
   image: string;
   status: string;
   category: string;
