@@ -10,6 +10,8 @@ export interface Pet {
 }
 
 export const getPets = async (): Promise<Pet[]> => {
-  const response = await axios.get<Pet[]>("http://localhost:3000/pets");
+  const response = await axios.get<Pet[]>(
+    `${import.meta.env.VITE_API_URL}/pets`,
+  );
   return response.data;
 };
