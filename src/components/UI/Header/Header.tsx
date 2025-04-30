@@ -6,8 +6,6 @@ import { Link, useLocation } from "react-router";
 const Header: FC = () => {
   const { pathname } = useLocation();
 
-  console.log({ pathname });
-
   return (
     <header className="shadow-md bg-green-400 sticky top-0 z-1">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">

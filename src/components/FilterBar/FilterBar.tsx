@@ -19,7 +19,7 @@ const FilterBar: FC<FilterBarProps> = ({ pets, setFiltered }) => {
   }, [filteredPets, setFiltered]);
 
   return (
-    <div className="flex flex-col sm:flex-row justify-between mb-6 sticky top-18 py-2 bg-amber-50">
+    <div className="flex flex-col sm:flex-row justify-between md:items-start mb-6 sticky top-18 py-2 bg-amber-50">
       <input
         type="text"
         placeholder="Search pets..."

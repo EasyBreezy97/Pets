@@ -24,7 +24,7 @@ const Button: React.FC<ButtonProps> = ({
   const variantStyles: Record<Variant, string> = {
     primary: "bg-green-800 text-white hover:bg-green-900",
     secondary: "bg-gray-200 text-gray-800 hover:bg-gray-300",
-    outline: "border border-green-600 text-green-600 hover:bg-green-50",
+    outline: "border border-green-600 text-green-600 hover:bg-green-100",
   };
 
   const sizeStyles: Record<Size, string> = {
