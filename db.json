@@ -1,0 +1,164 @@
+{
+  "pets": [
+    {
+      "id": 1,
+      "name": "Bella",
+      "category": "Dog",
+      "status": "available",
+      "tags": ["friendly", "small"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 2,
+      "name": "Max",
+      "category": "Cat",
+      "status": "pending",
+      "tags": ["playful", "indoor"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "category": "Rabbit",
+      "status": "sold",
+      "tags": ["quiet", "white-fur"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 4,
+      "name": "Luna",
+      "category": "Dog",
+      "status": "available",
+      "tags": ["energetic", "puppy"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 5,
+      "name": "Milo",
+      "category": "Bird",
+      "status": "available",
+      "tags": ["talkative", "colorful"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 6,
+      "name": "Daisy",
+      "category": "Cat",
+      "status": "available",
+      "tags": ["lazy", "fluffy"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 7,
+      "name": "Rocky",
+      "category": "Dog",
+      "status": "pending",
+      "tags": ["protective", "strong"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 8,
+      "name": "Coco",
+      "category": "Parrot",
+      "status": "available",
+      "tags": ["mimic", "green"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 9,
+      "name": "Chloe",
+      "category": "Hamster",
+      "status": "sold",
+      "tags": ["tiny", "fast"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 10,
+      "name": "Buddy",
+      "category": "Dog",
+      "status": "available",
+      "tags": ["loyal", "family"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 11,
+      "name": "Oliver",
+      "category": "Cat",
+      "status": "available",
+      "tags": ["curious", "climber"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 12,
+      "name": "Lola",
+      "category": "Dog",
+      "status": "sold",
+      "tags": ["cute", "toddler-friendly"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 13,
+      "name": "Bailey",
+      "category": "Rabbit",
+      "status": "pending",
+      "tags": ["floppy ears", "gentle"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 14,
+      "name": "Leo",
+      "category": "Dog",
+      "status": "available",
+      "tags": ["brave", "loyal"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 15,
+      "name": "Nala",
+      "category": "Cat",
+      "status": "available",
+      "tags": ["quiet", "shy"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 16,
+      "name": "Toby",
+      "category": "Ferret",
+      "status": "available",
+      "tags": ["slinky", "funny"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 17,
+      "name": "Zoe",
+      "category": "Bird",
+      "status": "pending",
+      "tags": ["sings", "tiny"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 18,
+      "name": "Oscar",
+      "category": "Dog",
+      "status": "sold",
+      "tags": ["senior", "gentle"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 19,
+      "name": "Simba",
+      "category": "Cat",
+      "status": "available",
+      "tags": ["sleepy", "orange"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    },
+    {
+      "id": 20,
+      "name": "Ruby",
+      "category": "Dog",
+      "status": "available",
+      "tags": ["smart", "obedient"],
+      "image": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+    }
+  ]
+}
