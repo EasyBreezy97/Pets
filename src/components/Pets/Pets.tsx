@@ -4,7 +4,7 @@ import { getPets, Pet } from "@/api/getPets";
 import Message from "@/components/UI/Message/Message";
 import Spinner from "@/components/UI/Spinner/Spinner";
 import FilterBar from "@/components/FilterBar/FilterBar";
-import PetsList from "../PetsLits/PetsList";
+import PetsList from "@/components/PetsLits/PetsList";
 
 const Pets: React.FC = () => {
   const {
@@ -24,13 +24,17 @@ const Pets: React.FC = () => {
     }
   }, [pets]);
 
-  if (isLoading) return <Spinner />;
+  if (isLoading) return <Spinner className="mx-auto my-10" />;
   if (isError) return <Message type="error" text="Error Loading pets..." />;
 
   return (
     <>
       {pets && <FilterBar pets={pets} setFiltered={setFilteredPets} />}
       <PetsList filteredPets={filteredPets} />
+
+      {filteredPets.length === 0 && (
+        <Message className="text-xl" text="Pets not found, search again..." />
+      )}
     </>
   );
 };

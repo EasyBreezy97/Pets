@@ -1,6 +1,7 @@
-import { FC, useState, useEffect, SetStateAction, Dispatch } from "react";
+import { FC, useEffect, SetStateAction, Dispatch } from "react";
 import Button from "@/components/UI/Button/Button";
 import { Pet } from "@/api/getPets";
+import useFilterPets from "@/hooks/useFilterPets";
 
 interface FilterBarProps {
   pets: Pet[];
@@ -8,33 +9,14 @@ interface FilterBarProps {
 }
 
 const FilterBar: FC<FilterBarProps> = ({ pets, setFiltered }) => {
-  const [search, setSearch] = useState("");
-  const [sortAsc, setSortAsc] = useState(true);
+  const { search, setSearch, filteredPets, toggleSort, sortAsc } =
+    useFilterPets({
+      pets,
+    });
 
   useEffect(() => {
-    let filtered = [...pets];
-
-    if (search.trim()) {
-      const lowerSearch = search.toLowerCase();
-
-      filtered = filtered.filter((pet) =>
-        [pet.name, pet.status, pet.category, ...pet.tags]
-          .join(" ")
-          .toLowerCase()
-          .includes(lowerSearch),
-      );
-    }
-
-    filtered.sort((a, b) =>
-      sortAsc ? a.name.localeCompare(b.name) : b.name.localeCompare(a.name),
-    );
-
-    setFiltered(filtered);
-  }, [search, sortAsc, pets, setFiltered]);
-
-  const toggleSort = () => {
-    setSortAsc((prev) => !prev);
-  };
+    setFiltered(filteredPets);
+  }, [filteredPets, setFiltered]);
 
   return (
     <div className="flex flex-col sm:flex-row justify-between mb-6 sticky top-18 py-2 bg-amber-50">

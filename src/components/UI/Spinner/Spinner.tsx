@@ -7,7 +7,7 @@ interface SpinnerProps {
 }
 
 const Spinner: React.FC<SpinnerProps> = ({
-  size = 24,
+  size = 48,
   color = "text-green-600",
   className = "",
 }) => {
